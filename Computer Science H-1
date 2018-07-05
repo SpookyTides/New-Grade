@@ -1,0 +1,36 @@
+//--------------------------------------------------------
+//--Author: Micheal Wade Harrison
+//--Date: February 28, 1998
+//--Course: Computer Science H-1
+//--Purpose: To average a new grade
+//--------------------------------------------------------
+#include<iostream.h>
+#include<math.h>
+#include<apvector.h>
+#include<apstring.h>
+
+void main ()
+{
+     int total, count, sum, i, grd, average;
+
+total = 0;
+count = 0;
+sum = 0;
+i = 0;
+
+cout<<"Please enterthe first grade: ";
+cin>>grd;
+while(grd!=-999)
+}
+
+{
+count += 1;
+total += grd;
+cout<<"Please enter the next grade or -999 to stop: ";
+cin>>grd;
+}
+
+{
+average = total/count;
+cout<<"The average is: "<<average<<endl;
+}
